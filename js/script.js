@@ -22,5 +22,7 @@ var triangle = function(sideA, sideB, sideC) {
   }
   if (sides[0] === sides[2]) {
     return 'equilateral'
+  } else if (sides[0] === sides[1] || sides[1] === sides[2]) {
+    return 'isosceles'
   }
 };

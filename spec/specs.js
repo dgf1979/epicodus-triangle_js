@@ -13,4 +13,7 @@ describe('triangle', function() {
     expect(triangle(3, 3, 3)).to.equal('equilateral');
   });
 
+  it("returns 'isosceles' if triangle is possible and two sides are equal length", function() {
+    expect(triangle(3, 2, 3)).to.equal('isosceles');
+  });
 });
