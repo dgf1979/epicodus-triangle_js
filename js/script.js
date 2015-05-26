@@ -24,5 +24,7 @@ var triangle = function(sideA, sideB, sideC) {
     return 'equilateral'
   } else if (sides[0] === sides[1] || sides[1] === sides[2]) {
     return 'isosceles'
+  } else {
+    return 'scalene'
   }
 };

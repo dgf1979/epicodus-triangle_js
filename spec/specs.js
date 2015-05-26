@@ -16,4 +16,9 @@ describe('triangle', function() {
   it("returns 'isosceles' if triangle is possible and two sides are equal length", function() {
     expect(triangle(3, 2, 3)).to.equal('isosceles');
   });
+
+  it("returns 'scalene' if triangle is possible and no sides are equal length", function() {
+    expect(triangle(4, 2, 3)).to.equal('scalene');
+  });
+
 });
