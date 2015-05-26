@@ -1,12 +1,12 @@
-## [APPNAME] ##
+## Leap Year ##
 
 This application is meant to fulfill the requirements of an assignment through Epicodus code school. For more information on Epicodus, see <http://www.epicodus.com/>.
 
 ### Description ###
 
-[simple app description]
+A simple function to determine if a given year is a leap year. Display use of JavaScript and related TDD libraries.
 
-**Assignment:** [assignment title]
+**Assignment:** A BDD example: leap year
 
 **<https://www.learnhowtoprogram.com/table-of-contents>**
 
@@ -16,7 +16,8 @@ Andrew Finstrom
 
 ### Setup ###
 ```
-    setup code or details here
+    all client side - run in any simple http server and browse to:
+    http://hostname:port/leap-year.html
 ```
 
 ### License ###
