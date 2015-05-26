@@ -1,12 +1,22 @@
+<<<<<<< HEAD
 ## [APPNAME] ##
+=======
+## Leap Year ##
+>>>>>>> b15f126d10083a9096e4a8c4df4100f80da40464
 
 This application is meant to fulfill the requirements of an assignment through Epicodus code school. For more information on Epicodus, see <http://www.epicodus.com/>.
 
 ### Description ###
 
+<<<<<<< HEAD
 [simple app description]
 
 **Assignment:** [assignment title]
+=======
+A simple function to determine if a given year is a leap year. Display use of JavaScript and related TDD libraries.
+
+**Assignment:** A BDD example: leap year
+>>>>>>> b15f126d10083a9096e4a8c4df4100f80da40464
 
 **<https://www.learnhowtoprogram.com/table-of-contents>**
 
@@ -16,7 +26,12 @@ Andrew Finstrom
 
 ### Setup ###
 ```
+<<<<<<< HEAD
     setup code or details here
+=======
+    all client side - run in any simple http server and browse to:
+    http://hostname:port/leap-year.html
+>>>>>>> b15f126d10083a9096e4a8c4df4100f80da40464
 ```
 
 ### License ###
@@ -43,4 +58,8 @@ OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
 ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
+<<<<<<< HEAD
 For more information, please refer to <http://unlicense.org/>
+=======
+For more information, please refer to <http://unlicense.org/>
+>>>>>>> b15f126d10083a9096e4a8c4df4100f80da40464
