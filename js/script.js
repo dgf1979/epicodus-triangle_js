@@ -7,6 +7,24 @@ $( document ).ready(function() {
     $("#jqtest").text('jQuery Ready')
 });
 
+// form processing
+$(document).ready(function() {
+  $("#result").hide();
+
+  $("form#triangle").submit(function(event) {
+    var sideA = parseInt($("input#sideA").val());
+    var sideB = parseInt($("input#sideB").val());
+    var sideC = parseInt($("input#sideC").val());
+    var result = triangle(sideA, sideB, sideC);
+
+    $(".type").text(result);
+
+    $("#result").show();
+    event.preventDefault();
+  });
+});
+
+
 //raw js
 var foo = function(bar) {
   return false;

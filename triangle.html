@@ -4,23 +4,36 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="/js/lib/jquery-1.11.3.js"></script>
     <script src="/js/script.js"></script>
-    <title>Leap year detector</title>
+    <title>Triangle Types</title>
   </head>
   <body>
     <div class="container">
-      <h1>Leap year detector</h1>
+      <h1>Determine Validity and Type of Triangle</h1>
 
-      <form id="leap-year">
+      <form id="triangle">
         <div class="form-group">
-          <label for="year">Enter a year and find out if it's a leap year:</label>
-          <input id="year" type="text">
+          <label for="sideA">Side A:</label>
+          <input id='sideA' type='number' min='1' max='99' value='4'>
+          <label for="sideB">Side B:</label>
+          <input id='sideB' type='number' min='1' max='99' value='4'>
+          <label for="sideC">Side C:</label>
+          <input id='sideC' type='number' min='1' max='99' value='4'>
+          <!-- <label for="sideA">Side A:</label>
+          <input id="sideA" type="text">
+          <label for="sideB">Side B:</label>
+          <input id="sideB" type="text">
+          <label for="sideC">Side C:</label>
+          <input id="sideC" type="text"> -->
+
         </div>
 
-        <button type="submit" class="btn">Find out!</button>
+
+        <br />
+        <button type="submit" class="btn">What kind of triangle?</button>
       </form>
 
       <div id="result">
-        <p><span class="year"></span> is <span class="not"></span> a leap year.</p>
+        <p><span class="type"></span> Triangle.</p>
       </div>
     </div>
   </body>
