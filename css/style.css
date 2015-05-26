@@ -1,0 +1,8 @@
+#jqtest {
+  background-color: black;
+  color: white;
+}
+
+#result {
+  display: none;
+}
