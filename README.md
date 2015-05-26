@@ -1,37 +1,26 @@
-<<<<<<< HEAD
-## [APPNAME] ##
+
+## Triangle (JS/jQuery) ##
 =======
-## Leap Year ##
->>>>>>> b15f126d10083a9096e4a8c4df4100f80da40464
 
 This application is meant to fulfill the requirements of an assignment through Epicodus code school. For more information on Epicodus, see <http://www.epicodus.com/>.
 
 ### Description ###
 
-<<<<<<< HEAD
-[simple app description]
+Demonstrate JS/jQ with a simple form to calculate a triangle type from length of sides
 
-**Assignment:** [assignment title]
+**Assignment:** Triangle
 =======
-A simple function to determine if a given year is a leap year. Display use of JavaScript and related TDD libraries.
-
-**Assignment:** A BDD example: leap year
->>>>>>> b15f126d10083a9096e4a8c4df4100f80da40464
 
 **<https://www.learnhowtoprogram.com/table-of-contents>**
 
 ### Author(s) ###
 
-Andrew Finstrom
+Andrew Finstrom & Jesse James
 
 ### Setup ###
 ```
-<<<<<<< HEAD
-    setup code or details here
-=======
     all client side - run in any simple http server and browse to:
-    http://hostname:port/leap-year.html
->>>>>>> b15f126d10083a9096e4a8c4df4100f80da40464
+    http://hostname:port/triangle.html
 ```
 
 ### License ###
