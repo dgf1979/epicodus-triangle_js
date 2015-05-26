@@ -9,8 +9,8 @@ describe('triangle', function() {
     expect(triangle(10, 4, 2)).to.equal('invalid');
   });
 
-  it("returns 'valid' if triangle is possible", function() {
-    expect(triangle(3, 4, 2)).to.equal('valid');
+  it("returns 'equilateral' if triangle is possible and sides are all equal length", function() {
+    expect(triangle(3, 3, 3)).to.equal('equilateral');
   });
 
 });
