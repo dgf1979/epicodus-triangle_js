@@ -14,5 +14,13 @@ var foo = function(bar) {
 
 
 var triangle = function(sideA, sideB, sideC) {
-  return 'invalid';
+  var sides = [sideA, sideB, sideC]
+  sides.sort(function(a, b){return a-b})
+
+  if (sides[0] + sides[1] <= sides[2]) {
+    return 'invalid';
+  }
+
+  return ''
+
 };
