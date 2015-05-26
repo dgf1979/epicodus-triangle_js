@@ -21,6 +21,6 @@ var triangle = function(sideA, sideB, sideC) {
     return 'invalid';
   }
 
-  return ''
+  return 'valid'
 
 };
